@@ -10,11 +10,20 @@ By:
 - University of West London, London, UK
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/satyamcser/saferl-lite?style=flat-square">
-  <img src="https://img.shields.io/github/stars/satyamcser/saferl-lite?style=flat-square">
-  <img src="https://img.shields.io/pypi/v/saferl-lite?style=flat-square">
-  <img src="https://img.shields.io/github/actions/workflow/status/satyamcser/saferl-lite/ci.yml?branch=main&style=flat-square">
+  <a href="https://github.com/satyamcser/saferl-lite/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/satyamcser/saferl-lite?style=flat-square" alt="License">
+  </a>
+  <a href="https://github.com/satyamcser/saferl-lite/stargazers">
+    <img src="https://img.shields.io/github/stars/satyamcser/saferl-lite?style=flat-square" alt="Stars">
+  </a>
+  <a href="https://pypi.org/project/saferl-lite/">
+    <img src="https://img.shields.io/pypi/v/saferl-lite?style=flat-square" alt="PyPI version">
+  </a>
+  <a href="https://github.com/satyamcser/saferl-lite/actions/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/satyamcser/saferl-lite/ci.yml?branch=main&style=flat-square" alt="Build Status">
+  </a>
 </p>
+
 
 ---
 
