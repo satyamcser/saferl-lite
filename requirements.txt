@@ -1,7 +1,10 @@
-gymnasium==0.29.1
+gymnasium
 numpy
 torch
 matplotlib
+seaborn
+pre-commit
+flake8
 pyyaml
 shap
 captum
@@ -9,6 +12,7 @@ typer
 scikit-learn
 pandas
 pytest
+pytest-cov
 coverage
 mkdocs
 wandb

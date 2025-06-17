@@ -1,0 +1,17 @@
+env:
+  name: CartPole-v1
+  max_force: 8.0
+
+agent:
+  type: ConstrainedDQN
+  constraint:
+    type: ActionBudget
+    max_actions: 150
+
+train:
+  episodes: 50
+  epsilon: 1.0
+  epsilon_decay: 0.995
+  min_epsilon: 0.05
+  log_dir: "loggers/"
+  save_explanations: true

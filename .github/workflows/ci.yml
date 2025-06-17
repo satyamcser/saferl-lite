@@ -7,11 +7,11 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Set up Python
@@ -23,8 +23,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip install pytest pytest-cov
+        pip install .  # Install your package if setup.py exists
 
-    - name: Run Pytest
+    - name: Run pre-commit hooks
+      uses: pre-commit/action@v3.0.0
+
+    - name: Run tests with coverage
       run: |
-        pytest tests/ --cov=.
+        pytest tests/ --cov=. --cov-report=term-missing
