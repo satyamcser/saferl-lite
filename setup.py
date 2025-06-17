@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="saferl-lite",
-    version="0.1.0",
+    version="0.1.2",
     author="Satyam Mishra",
     author_email="satyam@example.com",
     description="A lightweight, explainable, and constrained reinforcement learning toolkit.",
