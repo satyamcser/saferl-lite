@@ -31,6 +31,15 @@ nav:
   - Evaluation:
       - Metrics: evaluation/metrics.md
   - About: about.md
+  - Reference: reference.md
+
+
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+
 
 markdown_extensions:
   - toc:
