@@ -10,7 +10,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/satyamcser/saferl-lite",
     project_urls={
-        "Documentation": "https://satyamcser.github.io/saferl-lite/",
+        "Documentation": "https://github.com/satyamcser/saferl-lite/tree/main/docs",
         "Source": "https://github.com/satyamcser/saferl-lite",
         "Bug Tracker": "https://github.com/satyamcser/saferl-lite/issues",
     },
