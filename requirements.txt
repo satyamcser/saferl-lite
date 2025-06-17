@@ -1,0 +1,14 @@
+gymnasium==0.29.1
+numpy
+torch
+matplotlib
+pyyaml
+shap
+captum
+typer
+scikit-learn
+pandas
+pytest
+coverage
+mkdocs
+wandb
