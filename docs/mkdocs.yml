@@ -26,12 +26,16 @@ nav:
       - Environments: reference/envs.md
       - Constraints: reference/constraints.md
   - Explainability:
-      - Saliency Maps: explainability/saliency.md
-      - SHAP: explainability/shap.md
+      - Saliency Visualizer: docs\explainability\saliency.md
+      - SHAP Explainer: docs\explainability\shap.md
   - Evaluation:
       - Metrics: evaluation/metrics.md
   - About: about.md
   - Reference: reference.md
+  - Core Modules:
+      - Agents: agents.md
+      - Constraints: constraints.md
+      - Environments: envs.md   
 
 
 
