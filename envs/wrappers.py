@@ -1,6 +1,6 @@
 # envs/wrappers.py
 
-import gym
+import gymnasium as gym
 import numpy as np
 
 
