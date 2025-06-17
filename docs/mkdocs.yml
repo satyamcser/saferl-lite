@@ -1,0 +1,41 @@
+site_name: SafeRL-Lite
+site_description: Lightweight, Explainable, and Constrained Reinforcement Learning Library
+site_author: Satyam Mishra
+repo_url: https://github.com/satyamcser/saferl-lite
+repo_name: "GitHub: satyamcser/saferl-lite"
+
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - search.highlight
+    - content.code.copy
+
+
+nav:
+  - Home: index.md
+  - Usage:
+      - Installation: usage/installation.md
+      - Quickstart: usage/quickstart.md
+  - Examples:
+      - Safe CartPole: examples/cartpole.md
+  - API Reference:
+      - Agents: reference/agents.md
+      - Environments: reference/envs.md
+      - Constraints: reference/constraints.md
+  - Explainability:
+      - Saliency Maps: explainability/saliency.md
+      - SHAP: explainability/shap.md
+  - Evaluation:
+      - Metrics: evaluation/metrics.md
+  - About: about.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.details
