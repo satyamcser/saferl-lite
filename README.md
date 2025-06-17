@@ -115,7 +115,7 @@ SafeRL-Lite is like a safety helmet and voicebox for robots:
 
 ## 🔧 Installation
 
-> 📦 PyPI (coming soon)
+> 📦 PyPI 
 ```bash
 pip install saferl-lite
 ```

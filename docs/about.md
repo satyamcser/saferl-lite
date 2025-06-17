@@ -59,7 +59,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](https://gi
 ## 🌐 Links
 
 - GitHub: [https://github.com/satyamcser/saferl-lite](https://github.com/satyamcser/saferl-lite)
-- PyPI: *Coming soon*
+- PyPI: [https://pypi.org/project/saferl-lite/](https://pypi.org/project/saferl-lite/)
 - Docs: *This site*
 
 ---
