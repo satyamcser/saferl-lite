@@ -2,12 +2,14 @@
 
 A **lightweight, explainable, and modular** Python library for **Constrained Reinforcement Learning (Safe RL)** with real-time **SHAP & saliency-based explainability**, custom metrics, and Gym-compatible wrappers.
 
+**New update with ease to setup, install and import coming soon.
+
 By: 
 - Satyam Mishra, Vision Mentors Ltd., Hanoi, Vietnam
 - Shivam Mishra, Phung Thao Vi, Vietnam National University, Hanoi, Vietnam
 - Dr. Vishwanath Bijalwan, SR University, Warangal, India
 - Dr. Vijay Bhaskar Semwal, MANIT, Bhopal, India
-- University of West London, London, UK
+- Dr. Abdul Manan Khan, University of West London, London, UK
 
 <p align="center">
   <a href="https://github.com/satyamcser/saferl-lite/blob/main/LICENSE">
